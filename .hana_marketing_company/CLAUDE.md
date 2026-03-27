@@ -127,9 +127,38 @@ Hana Marketing Company
   - 詳細2
 ```
 
-### ファイル保存場所
+### ファイル保存場所（社内記録）
 - 各部門のフォルダ配下に日付別ファイルを保存
-- 例: `/content/20260327_content.md`
+- 例: `.hana_marketing_company/content/20260327_content.md`
+
+### 成果物の保存先（Google Drive 自動同期）
+
+**成果物ファイル（ドキュメント・資料・レポートなど）は必ずGoogleドライブに保存すること。**
+GoogleドライブはPC上の `G:\マイドライブ\Hana Marketing Company\` と同期している。
+
+| 成果物の種類 | 保存先パス |
+|------------|-----------|
+| SEOコラム記事（勤労の獅子） | `G:\マイドライブ\Hana Marketing Company\コンテンツ制作部\SEOコラム記事\勤労の獅子\` |
+| SEOコラム記事（経費の獅子） | `G:\マイドライブ\Hana Marketing Company\コンテンツ制作部\SEOコラム記事\経費の獅子\` |
+| SEOコラム記事（eco給与） | `G:\マイドライブ\Hana Marketing Company\コンテンツ制作部\SEOコラム記事\eco給与\` |
+| SEOコラム記事（HRコンサル） | `G:\マイドライブ\Hana Marketing Company\コンテンツ制作部\SEOコラム記事\HRコンサルティング\` |
+| SEOコラム記事（BPO） | `G:\マイドライブ\Hana Marketing Company\コンテンツ制作部\SEOコラム記事\BPOサービス\` |
+| ホワイトペーパー・eBook | `G:\マイドライブ\Hana Marketing Company\コンテンツ制作部\ホワイトペーパー・eBook\[サービス名]\` |
+| 導入事例 | `G:\マイドライブ\Hana Marketing Company\コンテンツ制作部\導入事例\[サービス名]\` |
+| バナー・クリエイティブ | `G:\マイドライブ\Hana Marketing Company\コンテンツ制作部\バナー・クリエイティブ\[サービス名]\` |
+| プレスリリース | `G:\マイドライブ\Hana Marketing Company\PR・広報部\プレスリリース\` |
+| メディア対応資料 | `G:\マイドライブ\Hana Marketing Company\PR・広報部\メディア対応資料\` |
+| 市場調査・競合分析 | `G:\マイドライブ\Hana Marketing Company\マーケ戦略部\市場調査・競合分析\` |
+| 年間・四半期計画 | `G:\マイドライブ\Hana Marketing Company\マーケ戦略部\年間・四半期計画\` |
+| KPIレポート | `G:\マイドライブ\Hana Marketing Company\マーケ戦略部\KPIレポート\` |
+| 月次レポート | `G:\マイドライブ\Hana Marketing Company\データ分析部\月次レポート\` |
+| ブランドガイドライン | `G:\マイドライブ\Hana Marketing Company\ブランディング部\ブランドガイドライン\` |
+| ブランドアセット | `G:\マイドライブ\Hana Marketing Company\ブランディング部\ブランドアセット\` |
+
+**保存時の注意：**
+- ファイル名は `YYYYMMDD_タイトル.拡張子` 形式
+- フォルダが存在しない場合は作成してから保存する
+- 保存完了後、社内記録（.hana_marketing_company/内）にも保存先パスを記録する
 
 ---
 
