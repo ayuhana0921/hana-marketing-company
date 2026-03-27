@@ -17,32 +17,32 @@
 ## 組織構成図
 
 ```
-Hana Marketing Company（CEO直下）
+Hana Marketing Company
 │
-├─ CEO（総指揮）
-│  │
-│  ├─ 秘書室（secretary/）
-│  ├─ 総務部（general-affairs/）
-│  └─ 組織開発部（org-development/）
-│
-└─ マーケティング統括
+└─ CEO（総指揮）
    │
-   ├─ マーケ戦略部（marketing-strategy/）
-   ├─ コンテンツ制作部（content/）
-   │  ├─ 勤怠管理（kintai/）
-   │  ├─ 経費精算（keihi/）
-   │  ├─ WEB明細（web-meisai/）
-   │  ├─ HRコンサ（hr-consulting/）
-   │  └─ BPOサービス（bpo/）
-   ├─ SNS運用部（sns/）
-   ├─ イベント企画部（events/）
-   ├─ メルマガ部（email-marketing/）
-   ├─ PR・広報部（pr/）
-   ├─ データ分析部（data-analytics/）
-   └─ ブランディング部（branding/）
-│
-└─ その他
-   └─ CS部（cs/）
+   ├─ 秘書室（secretary/）
+   ├─ 総務部（general-affairs/）
+   ├─ 組織開発部（org-development/）
+   ├─ CS部（cs/）
+   │
+   └─ マーケ戦略部（marketing-strategy/）★マーケ全体の上位部門
+      │  ※以下の全部門に対して方針・KPI・テーマを指示する
+      │
+      ├─ コンテンツ制作部（content/）
+      │  ├─ articles/   SEOコラム記事
+      │  ├─ whitepaper/ ホワイトペーパー・eBook
+      │  ├─ casestudy/  導入事例
+      │  └─ creative/   バナー・クリエイティブ
+      │     ※各コンテンツ種別の下に5サービス（kintai/keihi/web-meisai/hr-consulting/bpo/）
+      │
+      ├─ SNS運用部（sns/）
+      ├─ イベント企画部（events/）
+      ├─ メルマガ部（email-marketing/）
+      ├─ PR・広報部（pr/）
+      ├─ データ分析部（data-analytics/）
+      └─ ブランディング部（branding/）
+         ※SNS〜ブランディングの各部は勤労の獅子・HRコンサル の2グループを内包
 ```
 
 ---
@@ -97,11 +97,14 @@ Hana Marketing Company（CEO直下）
 
 ## 運用ルール
 
-### エントリーポイント
+### エントリーポイントと指揮系統
 - **CEO** が最高責任者かつ総指揮官
 - ユーザーはCEOに話しかけ、CEOが各部門に振り分け
-- 秘書室と各部門長は CEO からの指示を遵行
-- 部門横断的な案件は CEO が調整
+- **マーケ戦略部はマーケティング全部門の上位部門**
+  - コンテンツ制作部・SNS運用部・イベント企画部・メルマガ部・PR部・データ分析部・ブランディング部の方針・KPI・テーマはすべてマーケ戦略部が決定
+  - 各部門からの報告・相談はまずマーケ戦略部に集約し、必要に応じてCEOにエスカレーション
+- 秘書室・総務部・組織開発部・CS部はCEO直轄
+- 部門横断的な案件はCEOが最終調整
 
 ### Claudeの利用方法
 - **自動記録機能**: 全てのやり取りを自動で記録
