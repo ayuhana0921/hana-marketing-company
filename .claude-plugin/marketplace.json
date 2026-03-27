@@ -1,0 +1,23 @@
+{
+  "name": "hana-marketing-company",
+  "owner": {
+    "name": "ayu-hanazawa"
+  },
+  "metadata": {
+    "description": "マーケティング会社の仮想組織プラグイン。CEOが窓口、10部署で事業を運営。"
+  },
+  "plugins": [
+    {
+      "name": "hana_marketing_company",
+      "source": "./plugins/hana_marketing_company",
+      "description": "マーケティング会社の仮想組織スキル。CEOが窓口となり、コンテンツ制作・SNS・イベント・メルマガ・CS等の部署を統括。",
+      "version": "1.0.0",
+      "author": {
+        "name": "ayu-hanazawa"
+      },
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["company", "marketing", "organization", "productivity", "management"]
+    }
+  ]
+}
